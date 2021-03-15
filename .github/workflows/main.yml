@@ -28,4 +28,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run script
-        run: ./update-data.sh
+        run: ../update-data.sh
