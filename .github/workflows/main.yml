@@ -28,4 +28,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run script
-        run: ./update-data.sh
+        shell: bash 
+        working-directory: ./update-data.sh
